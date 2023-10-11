@@ -52,7 +52,7 @@
 .herosection{
   height: 400px;
   width: 100vw;
-  background-color: rgb(245, 235, 235);
+  background-color: #f0eded;
   padding: 50px 70px;
   display: flex;
 }
@@ -60,6 +60,7 @@
 .herosection-text {
   padding-left: 20px;
   padding-right: 20px;
+  width: 50%;
 }
 
 .lorem {
@@ -87,7 +88,10 @@ a:hover{
 
 .herosection-image {
   height: 100%;
-  width: auto;
+  width: 50%;
+  display: block;
+  margin: 0, auto;
+  
 }
 
 /* herosection end */
