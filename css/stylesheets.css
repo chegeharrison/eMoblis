@@ -90,7 +90,7 @@ a:hover{
   height: 100%;
   width: 50%;
   display: block;
-  margin: 0, auto;
+
   
 }
 
@@ -100,7 +100,7 @@ a:hover{
 /* teaser start */
 .teasersection{
   height: 400px;
-  width: 100;
+  width: 100vw;
   background-color: white;
   justify-content: center;
   padding-left: 100px;
@@ -165,7 +165,7 @@ footer{
 
 
 }
-#img{
+.post{
   margin-right: 10px;
 
 }
