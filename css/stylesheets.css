@@ -42,6 +42,7 @@
 
 .list-item > a {
   color: #edece8;
+  list-style: none;
 }
 /* navbar end */
 
@@ -51,7 +52,7 @@
 .herosection{
   height: 400px;
   width: 100vw;
-  background-color: rgb(248, 224, 228);
+  background-color: rgb(245, 235, 235);
   padding: 50px 70px;
   display: flex;
 }
@@ -84,3 +85,35 @@ margin-bottom: 15px;
 
 /* herosection end */
 
+
+/* teaser start */
+.teasersection{
+  height: 400px;
+  width: 100;
+  background-color: white;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.teaser-image{
+  height: 100px;
+  width: auto;
+
+
+}
+.teaser-text{
+margin-top: 90px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.grid{
+  display: inline-block;
+  width: 30%;
+}
+.header{
+  
+  padding-left: 100px;
+  font-size: 20px;
+  margin: 10px;
+}
